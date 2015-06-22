@@ -1,10 +1,10 @@
 # Adobe Experience Manager 6 Extension: Customizing the foundation page dialog
 
 This is a sample package showing how to extend the foundation page dialog in order to customize the different views of the page properties:
-* Add new field to “Edit” and “Bulk Edit”
-* Hide Advanced tab in “Create”
-* Show Thumbnail tab only in “Create”
-* Make an existing field required and add validation
+* Add custom field to “Edit Page Properties” and “Bulk Edit Page Properties” views
+* Hide Advanced tab in “Create Page” view
+* Show Thumbnail tab only in “Create Page” view (hide it in "Edit Page Properties" view)
+* Make an existing field required and add custom validation to another field
 
 ## Building 
  

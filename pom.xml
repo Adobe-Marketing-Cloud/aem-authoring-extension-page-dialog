@@ -7,7 +7,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>content-package</packaging>
 
-    <name>Adobe AEM6.1 demo for extension point: customizing the page dialog</name>
+    <name>Adobe AEM6.1 Demo for Extension Point: Customizing Page Properties</name>
 
     <inceptionYear>2015</inceptionYear>
     <licenses>
