@@ -4,45 +4,29 @@
     <content jcr:primaryType="nt:unstructured">
         <items jcr:primaryType="nt:unstructured">
             <tabs jcr:primaryType="nt:unstructured">
-                <items
-                    jcr:primaryType="nt:unstructured"
-                    sling:hideChildren="[cloudservices,permissions]">
+                <items jcr:primaryType="nt:unstructured">
                     <basic jcr:primaryType="nt:unstructured">
                         <items jcr:primaryType="nt:unstructured">
                             <column jcr:primaryType="nt:unstructured">
                                 <items jcr:primaryType="nt:unstructured">
                                     <title jcr:primaryType="nt:unstructured">
                                         <items jcr:primaryType="nt:unstructured">
-                                            <pagename
-                                                jcr:primaryType="nt:unstructured"
-                                                required="{Boolean}true"/>
                                             <title
                                                 jcr:primaryType="nt:unstructured"
-                                                validation="demos.notest"/>
+                                                sling:orderBefore="pagename"
+                                                fieldLabel="Title (in first position!)"
+                                                allowBulkEdit="true"/>
                                         </items>
                                     </title>
-                                    <moretitles jcr:primaryType="nt:unstructured">
-                                        <items jcr:primaryType="nt:unstructured">
-                                            <abstract
-                                                jcr:primaryType="nt:unstructured"
-                                                sling:orderBefore="description"
-                                                sling:resourceType="demos/components/form/richtext"
-                                                allowBulkEdit="{Boolean}true"
-                                                fieldLabel="Abstract"
-                                                name="./abstract"
-                                                renderReadOnly="{Boolean}true"/>
-                                        </items>
-                                    </moretitles>
+                                    <moretitles
+                                        cq:showOnCreate="{Boolean}false"
+                                        jcr:primaryType="nt:unstructured"/>
                                 </items>
                             </column>
                         </items>
                     </basic>
                     <advanced
                         cq:showOnCreate="{Boolean}false"
-                        jcr:primaryType="nt:unstructured"/>
-                    <thumbnail
-                        cq:hideOnEdit="{Boolean}true"
-                        cq:showOnCreate="{Boolean}true"
                         jcr:primaryType="nt:unstructured"/>
                 </items>
             </tabs>

@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:created="{Date}2015-06-21T19:22:05.843+02:00"
+    jcr:created="{Date}2015-06-22T20:50:21.781+02:00"
     jcr:createdBy="admin"
-    jcr:description="Adobe AEM6.1 demo for extension point: customizing the page dialog"
-    jcr:lastModified="{Date}2015-06-21T19:22:05.843+02:00"
+    jcr:description=""
+    jcr:lastModified="{Date}2015-06-22T20:50:21.781+02:00"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="vlt:PackageDefinition"
-    buildCount="2"
-    group="aem/demo"
-    lastUnwrapped="{Date}2015-06-21T19:22:05.843+02:00"
+    buildCount="1"
+    builtWith="Adobe Experience Manager-6.2.0.20150612"
+    group="my_packages"
+    lastUnwrapped="{Date}2015-06-22T20:50:21.781+02:00"
     lastUnwrappedBy="admin"
-    lastWrapped="{Date}2015-06-21T19:22:05.843+02:00"
+    lastWrapped="{Date}2015-06-22T20:50:21.781+02:00"
     lastWrappedBy="admin"
-    name="com.adobe.aem.demo.authoring.ext.page.dialog"
-    requiresRestart="{Boolean}false"
-    requiresRoot="{Boolean}false"
-    version="1.0-SNAPSHOT">
-    <thumbnail.png/>
+    name="demodemodemo"
+    version="">
     <filter jcr:primaryType="nt:unstructured">
         <f0
             jcr:primaryType="nt:unstructured"
@@ -26,12 +24,7 @@
         <f1
             jcr:primaryType="nt:unstructured"
             mode="replace"
-            root="/apps/geometrixx/components/page"
-            rules="[]"/>
-        <f2
-            jcr:primaryType="nt:unstructured"
-            mode="replace"
-            root="/etc/clientlibs/demos"
+            root="/content/demos"
             rules="[]"/>
     </filter>
 </jcr:root>
