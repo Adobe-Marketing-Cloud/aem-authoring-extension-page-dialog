@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/demos"/>
+    <filter root="/apps/geometrixx/components/page"/>
+    <filter root="/etc/clientlibs/demos"/>
+</workspaceFilter>

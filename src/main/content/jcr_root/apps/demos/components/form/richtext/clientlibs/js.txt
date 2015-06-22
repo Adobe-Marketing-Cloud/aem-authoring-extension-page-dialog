@@ -1,0 +1,2 @@
+js/richtext.js
+js/adapter.js
