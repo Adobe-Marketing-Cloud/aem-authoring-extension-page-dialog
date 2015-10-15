@@ -5,6 +5,7 @@ This is a sample package showing how to extend the foundation page dialog in ord
 * Hide Advanced tab in “Create Page” view
 * Show Thumbnail tab only in “Create Page” view (hide it in "Edit Page Properties" view)
 * Make an existing field required and add custom validation to another field
+* Reorder a given field
 
 ## Building 
  
