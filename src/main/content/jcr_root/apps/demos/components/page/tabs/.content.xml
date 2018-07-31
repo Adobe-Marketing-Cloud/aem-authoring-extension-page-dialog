@@ -21,4 +21,7 @@
             </column>
         </items>
     </basic>
+    <advanced
+        cq:showOnCreate="{Boolean}false"
+        jcr:primaryType="nt:unstructured"/>
 </jcr:root>

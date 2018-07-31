@@ -8,6 +8,9 @@
                     <basic
                         jcr:primaryType="nt:unstructured"
                         path="/mnt/override/apps/demos/components/page/tabs/basic"/>
+                    <advanced
+                        jcr:primaryType="nt:unstructured"
+                        path="/mnt/override/apps/demos/components/page/tabs/advanced"/>
                 </items>
             </tabs>
         </items>
