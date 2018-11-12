@@ -7,10 +7,10 @@
                 <items jcr:primaryType="nt:unstructured">
                     <basic
                         jcr:primaryType="nt:unstructured"
-                        path="/mnt/override/apps/demos/components/page/tabs/basic"/>
+                        path="/apps/demos/components/page/tabs/basic"/>
                     <advanced
                         jcr:primaryType="nt:unstructured"
-                        path="/mnt/override/apps/demos/components/page/tabs/advanced"/>
+                        path="/apps/demos/components/page/tabs/advanced"/>
                 </items>
             </tabs>
         </items>
